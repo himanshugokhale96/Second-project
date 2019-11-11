@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+ <servlet>
+   <servlet-name>est</servlet-name>
+   <servlet-class>TestResult</servlet-class>
+</servlet> 
+<servlet-mapping>
+    <servlet-name>est</servlet-name>
+    <url-pattern>/test</url-pattern>
+</servlet-mapping>
+ <servlet>
+   <servlet-name>test</servlet-name>
+   <servlet-class>apt.Record1</servlet-class>
+</servlet> 
+<servlet-mapping>
+    <servlet-name>test</servlet-name>
+    <url-pattern>/record</url-pattern>
+</servlet-mapping>
+<servlet>
+   <servlet-name>trial</servlet-name>
+   <servlet-class>Trial</servlet-class>
+</servlet> 
+<servlet-mapping>
+    <servlet-name>trial</servlet-name>
+    <url-pattern>/trial</url-pattern>
+</servlet-mapping>
+ 
+ </web-app>
